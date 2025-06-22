@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Hurricane&family=Kings&family=Lakki+Reddy&family=Luckiest+Guy&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Niconne&family=Poppins&family=Rubik+Spray+Paint&family=Shojumaru&family=Tangerine:wght@400;700&family=Tiro+Gurmukhi:ital@0;1&family=ZCOOL+XiaoWei&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="m-0 p-0 ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <div class="base position-relative w-100"  >
+   
+    <div class="position-absolute top-0 start-0 w-100  video-box">
+
+      
+        
+       <video preload="auto"  id="bg-video" autoplay loop muted class="w-100 h-100 object-fit-cover">
+        <source id="video-source" src="https://res.cloudinary.com/dfjevmln8/video/upload/v1750596805/vd_1_1_qv4o3v.mp4" type="video/mp4">
+      
+   
+      </div>
+
+     
+  
+ <!--CHANGE VIDEO LINK -->
+      
+    <div class="position-absolute top-0 w-100 h-100 ">
+      <nav class="  d-flex flex-wrap " style="background: linear-gradient(10deg ,rgba(231, 231, 234, 0.6), #021032); ">
+        <div class="container-fluid d-flex   px-3 ">
+          <img src="assests/logo-removebg-preview.png " alt="GNDEC Logo" class="logo">
+
+          <div class="d-flex  justify-content-between w-100 py-3 pb-0">
+
+            <div class="d-flex  flex-column gap-1 ">
+              <span class="upper-heading  fw-bold text-white   header-text
+                        " style="font-family: 'Cinzel', serif;  ">GURU NANAK DEV ENGINEERING COLLEGE</span>
+              <span class="upper-heading fw-bold text-white  header-text" style="font-family: 'Cinzel', serif; ">ਗੁਰੂ
+                ਨਾਨਕ ਦੇਵ ਇੰਜੀਨੀਅਰਿੰਗ ਕਾਲਜ</span>
+               
+              
+
+            </div>
+            </div>
+
+
+           
+      </nav>
+            
+
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark w-100 ">
+        <div class=" container-fluid justify-content-end px-0">
+          <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+
+           
+
+          <img src="assests/logo-removebg-preview.png" alt="Logo" class="nav-logo">
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav d-flex justify-content-between gap-3 ">
+
+              <li class="nav-item dropdown">
+                <button class="btn btn-transparent   " style="color: white; border:none"
+                    onclick="window.location.href='about.html';">
+                 ABOUT US 
+                </button>
+               
+              </li>
+              <li class="nav-item dropdown">
+                <button class="btn btn-transparent dropdown-toggle  " style="color: white; border:none"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  GOVERNANCE
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark p-2 " style="background-color: #021032;">
+                  <li><a class="dropdown-item mb-2" href="./governing-body.html">Governing Body</a></li>
+                  <li><a class="dropdown-item mb-2" href="./academic-council.html">Academic Council</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/statcom_n24.pdf">Statutory Committees</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/Statutory%20Committees.pdf">Statutory </a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/Non%20Statutory%20Committees_2.pdf">Non Statutory </a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/Service%20and%20Conduct%20Rules.pdf">Service and Conduct </a></li>
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <button class="btn btn-transparent dropdown-toggle  " style="color: white; border:none"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  EXAMINATION
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark p-2 " style="background-color: #021032;">
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/staff%20data%20examiantion.pdf">COE Office</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/gr_com_exam.pdf">Grievance Committee</a></li>
+                  <li><a class="dropdown-item mb-2" href="./staff-login.html">Examination Portal for Staff</a></li>
+                  <li><a class="dropdown-item mb-2" href="./student-login.html">Examination Portal for Students</a></li>
+                  <li><a class="dropdown-item mb-2" href="#">Results</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/RoH24.pdf">Roll of Honour</a></li>
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown ">
+                <button class="btn btn-transparent dropdown-toggle  " style="color: white; border:none"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  QUALITY WORK
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark p-2 qw" style="background-color: #021032;">
+                  <li><a class="dropdown-item mb-2" href="./AICTE.html">AICTE Approval</a></li>
+                  <li><a class="dropdown-item mb-2" href="./PTU.html">PTU affiliation</a></li>
+                  <li><a class="dropdown-item mb-2" href="./NBA.html">NBA & ISO Certification</a></li>
+                  <li><a class="dropdown-item mb-2" href="#">NISP</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/ariia.pdf">ARIIA</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/IE(I)%20Accreditation.jpeg">IE (I) Accreditation</a></li>
+                  <li><a class="dropdown-item mb-2" href="https://gndec.ac.in/sites/default/files/tcs2.pdf">TCS Accreditation</a></li>
+                </ul>
+              </li>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="main-content w-100   d-flex justify-content-center align-items-center">
+
+        <div class="text-center content-text">
+          <div class=" fw-bold text-white" style="font-family: 'Cinzel', serif; text-shadow: 0px 0px 90px rgb(248, 248, 248),
+              0px 1px 10px rgb(248, 248, 248), 
+              2px 4px 0 #000000, 
+              0px 6px 0 #000000, 
+              4px 5px 0 #000000, 
+              2px 6px 0 #000000, 
+              -1px 6px 0 #000000;">
+            GURU NANAK DEV ENGINEERING COLLEGE
+          </div>
+          <div class=" fw-bold text-white " style="font-family: 'Cinzel', serif; text-shadow: 0px 0px 90px rgb(248, 248, 248),
+              0px 1px 10px rgb(248, 248, 248), 
+              2px 4px 0 #000000, 
+              0px 6px 0 #000000, 
+              4px 5px 0 #000000, 
+              2px 6px 0 #000000, 
+              -1px 6px 0 #000000;">
+            ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਇੰਜੀਨੀਅਰਿੰਗ ਕਾਲਜ
+          </div>
+
+
+          <div class="small-content-text">
+            <div class="text-white" style="text-shadow:5px 3px 3px rgb(5, 5, 5);">An Autonomous College</div>
+            <div class="text-white" style="text-shadow:5px 3px 3px rgb(5, 5, 5);">AICTE Approved Punjab Govt. Aided
+              Status, ISO 9001: 2008 Certified</div>
+            <div class="text-white" style="text-shadow:5px 3px 3px rgb(5, 5, 5);">Affiliated to I.K Gujral Punjab
+              Technical University, Jalandhar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+  <div class="section-box container d-flex justify-content-center">
+    <div class="row section-content flex-wrap"  style="cursor: pointer;">
+       
+      <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center  p-3 box-1"     onclick="window.location.href='notice.html';" >
+        <img src="assests/research-removebg-preview.png" alt="News Icon" class="img-fluid" width="80">
+        <p class="section-text">NOTICE</p>
+      </div>
+   
+   
+      <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center p-3 box-2"   onclick="window.location.href='academic.html';">
+        <img src="assests/departments-1.png" alt="Programs Icon" class="img-fluid" width="80">
+        <p class="mt-2 section-text" >DEPARTMENT</p>
+       
+      </div>
+  
+      <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center p-3 box-3" style="cursor: pointer;">
+          <a href="#gallery" class="text-decoration-none ">
+            <picture>
+              <!-- Image for small screens (e.g., <768px) -->
+              <source srcset="./assests/gallery.png" media="(max-width: 1000px)">
+              <!-- Default image for larger screens -->
+              <img src="./assests/gallery2.png" alt="Gallery Icon" class="img-fluid" width="80">
+            </picture>
+          <p class="section-text">GALLERY</p>
+        </a>
+        </div>
+ 
+      
+      <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center p-3 box-4"
+      onclick="window.location.href='https://www.tnpgndec.com/';" style="cursor: pointer;">
+   <img src="assests/image-removebg-preview (1).png" alt="Achievements Icon" class="img-fluid" width="80">
+   <p class="section-text">PLACEMENTS</p>
+ </div>
+    </div>
+  </div>
+  <section>
+    <div class="banner">
+
+
+      <div class="about-box">
+        <div class="about-content">
+          <div class="image">
+            <img src="assests/clg4.jpg" alt="About Us Image" class="image-fluid">
+          </div>
+          <div class="content">
+            <h2>About Us</h2>
+            <div class="underline"></div>
+            <div class="about-text" id="aboutText">
+              Guru Nanak Dev Engineering College was established by the Nankana Sahib Education Trust. NSET was founded in memory of the most sacred temple of Nankana Sahib, birth place of Guru Nanak Dev Ji. Shiromani Gurudwara Prabandhak Committee, Amritsar, a premier organization of universal brotherhood, was the main force behind the mission of "Removal of Economic Backwardness through Technology". With this mission, a Polytechnic was started in 1953 and Guru Nanak Dev Engineering College was established in 1956. The Trust deed was registered on 24th February 1953 with a commitment by The Nankana Sahib Education Trust to uplift the vast weaker section of Indian polity comprising Rural India by admitting 70% students every year from Rural Areas. This commitment was made to the nation on 8th April, 1956. The day when foundation stone of the College Building was laid by Late Dr. Rajendra Prasad Ji, the First President of India. Nearly 10,000 graduate and 3000 Post Graduate Engineers have passed out from this college during the last 50 years and are at present successfully employed in India & abroad. The college is now ISO 9001-2008 Certified, NBA accredited and have signed MoU with IOWA University [USA] for exchange of students and faculty.
+            </div>
+            <button class="read-more-btn" onclick="toggleReadMore()">Read More</button>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+<section class="banner-container w-100">
+  <div class="container py-5 ">
+    <div class="row text-center justify-content-center g-4">
+        <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
+            <div class="stat d-flex align-items-center justify-content-center p-3 rounded">
+                <i class="fas fa-user-graduate fs-1 me-3 text-dark"></i>
+                <div>
+                    <h3 class="mb-0">1000+</h3>
+                    <p class="mb-0">Students</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
+            <div class="stat d-flex align-items-center justify-content-center p-3 rounded">
+                <i class="fas fa-chalkboard-teacher fs-1 me-3 text-dark"></i>
+                <div>
+                    <h3 class="mb-0">460+</h3>
+                    <p class="mb-0">Faculty</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
+            <div class="stat d-flex align-items-center justify-content-center p-3 rounded">
+                <i class="fas fa-users fs-1 me-3 text-dark"></i>
+                <div>
+                    <h3 class="mb-0 ">575+</h3>
+                    <p class="mb-0">Staff</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<div class="principal-box">
+  <div>
+    <div class="principal-content d-lg-flex">
+      <!-- Content (Left Side) -->
+      <div class="order-2 order-lg-1 content">
+        <h2 class="principal-heading"><i class="fas fa-edit"></i> Principal</h2>
+        <div class="underline"></div>
+        <div class="principal-text" id="principalText">
+          <p id="principalPara">
+            Guru Nanak Dev Engineering College, Ludhiana (an autonomous college under UGC Act), established in 1956, was set up under the aegis of Nankana Sahib Education Trust, devoted to the cause of rural education to meet the growing demand for technical and professional manpower and industries. We are proud that this institution has consistently maintained its tradition of excellence in the field of technical education till date. The college has been declared an Autonomous College by UGC, New Delhi on 17.8.2012. The college has privilege of starting Ph.D degree under Quality Improvement Programme (QIP) by AICTE, New Delhi. The college has been accredited with ‘A’ Grade by NAAC. The college has attained ISO 9001:2015 Certification and the UG programmes are accredited by IEI.
+            <br><br>
+            Apart from offering various Accredited graduate level B.Tech. courses vis-a-vis Civil Engineering, Mechanical Engineering, Information Technology, Computer Science & Engineering, Electrical Engineering, Electronics & Communication Engineering along with BBA, BCA, B.Com (Entrepreneurship), B.Voc. (Interior Design). The institute also imparts education in nine Postgraduate M.Tech. courses along with MBA and MCA on regular basis. A dedicated research environment is provided to the researchers leading to Ph.D degree programme. Bachelor of Architecture (B.Arch.) is also run under GNDEC School of Architecture regulated by Council of Architecture (COA).
+            <br><br>
+            The perseverance and dedication of the entire staff is so high that it is effervescent to evolve problem-solving strategies for the betterment of the students. Numerous ongoing projects by AICTE, MHRD, CSIR etc. further enrich the faculty and the institution. The college has been granted FM radio station under Community FM Scheme by the Centre.
+            <br><br>
+            The college believes in strong industry institute collaboration for which the testing and consultancy cell established by the college works rigorously by sharing its expertise with industry.
+            <br><br>
+            The Training and the Placement Cell is dynamic and immaculate in discharging its duties. MNCs and Indian Corporate giants like Microsoft, TCS, WIPRO etc. visit the college, and the caliber of the students leave them spellbound. The College is accredited with TCS for placement. Consequently, the placement graph has risen manifold. The proud alumni of GNDEC are serving in IAS, PCS etc. and on eminent positions in industries & also administration all across the world. PTU has been regularly awarding first position to the college in placement & academic performance amongst its all colleges. Majority of the academic and non academic work is online. Hassle free information access and quality education are the hallmark of the college.
+            <br><br>
+            Holistic development of the personality of each and every student is stressed upon and taken care of. Sports, cultural and other extra-curricular activities nurture and hone up the talent of the students. Our students are the proud achievers of not only the academic positions but the topmost ones in sports also at the University and Inter-University level. The college has also state of the art hostel facilities for boys & girls.
+            <br><br>
+            The Management is highly supportive and motivator for the all-round growth & development of the students, beyond the curriculum, and maintains cordial and harmonious relationship with its employees. I take this opportunity to welcome the students from the core of my heart, and assure their parents that the college will further register tremendous progress on all fronts with its sincere, dedicated & progressive efforts.
+          </p>
+        </div>
+        <button class="read-more-btn" onclick="togglePrincipalText()" id="toggleBtn">Read More</button>
+      </div>
+
+      <!-- Image (Right Side) -->
+      <div class="order-1 order-lg-2 text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="principal-img">
+          <img src="assests/principal2.jpg" alt="Principal Image">
+        </div>
+        <h2 class="mt-3">Dr. Sehijpal Singh</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section id="gallery" class="py-5 bg-light">
+      <div class="container">
+    
+        <!-- Title and Description -->
+     
+    
+        <!-- Top Carousel (Images 1-3) -->
+        <div id="topCarousel" class="carousel slides mb-4" data-bs-ride="carousel">
+          <div class="carousel-inner rounded shadow-sm">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assests/gal1.jpeg" class="d-block w-100 gallery-img" alt="Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal1.jpeg">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal3.jpeg" class="d-block w-100 gallery-img" alt="Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal3.jpeg">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal2.jpeg" class="d-block w-100 gallery-img" alt="Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal2.jpeg">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assests/gal5.jpeg" class="d-block w-100 gallery-img" alt="Image 4" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal5.jpeg">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal8.png" class="d-block w-100 gallery-img" alt="Image 5" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal8.png">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal6.png" class="d-block w-100 gallery-img" alt="Image 6" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal6.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    
+        <div class="text-center mb-5">
+            <h2 class="fw-bold" style="font-family: 'Cinzel', serif;">Campus Gallery</h2>
+            <p class="text-muted fs-6 fs-sm-5 fs-md-5 fs-lg-5">Explore glimpses of our vibrant campus life</p>
+
+          </div>
+    
+        <!-- Bottom Carousel (Images 4-6) -->
+        <div id="bottomCarousel" class="carousel slides" data-bs-ride="carousel">
+          <div class="carousel-inner rounded shadow-sm">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assests/gal7.png" class="d-block w-100 gallery-img" alt="Image 7" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal7.png">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal4.jpg" class="d-block w-100 gallery-img" alt="Image 8" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal4.jpg">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal11.png" class="d-block w-100 gallery-img" alt="Image 9" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal11.png">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assests/gal9.png" class="d-block w-100 gallery-img" alt="Image 10" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal9.png">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal10.png" class="d-block w-100 gallery-img" alt="Image 11" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal10.png">
+                </div>
+                <div class="col-4">
+                  <img src="./assests/gal8.png" class="d-block w-100 gallery-img" alt="Image 12" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="./assests/gal8.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#bottomCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#bottomCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    
+      </div>
+    
+      <!-- Modal for Enlarged Image -->
+      <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-transparent border-0">
+            <img id="modalImage" src="" class="img-fluid rounded" alt="Enlarged">
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+   
+
+    
+    
+   
+
+    
+
+    <footer class="footer  text-white py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 text-center text-md-start mb-3">
+                  <img src="assests/logo-removebg-preview.png" alt=" Logo" width="80">
+                  <h2 class="mt-2">Guru Nanak Dev Engineering College</h2>
+                  <p>
+                      📍 Gill Rd, Gill Park, Ludhiana, Punjab 141006
+                  </p>
+                  <p>
+                      📞 +91-0181-5037855, 2690301, 2690453, 3082000
+                  </p>
+              </div>
+              <div class="col-md-8">
+                  <div class="col-12 d-flex justify-content-center footer-container">
+                      <div class="col-sm-4 mb-3">
+                          <h5>Quick Links</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="./academic-calender.html" class="text-white">Academic Calendar</a></li>
+                              <li><a href="#" class="text-white">Admission</a></li>
+                              <li><a href="https://gndec.ac.in/sites/default/files/ar2122_0.pdf" class="text-white">Annual Reports</a></li>
+                              <li><a href="https://gndec.ac.in/sites/default/files/List%20of%20Holidays-1.pdf" class="text-white">List of Holidays</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4 mb-3">
+                          <h5>Facilities</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="https://gndec.ac.in/sites/default/files/Hostel%20Rules_24.pdf" class="text-white">Hostels</a></li>
+                              <li><a href="https://ncc.gndec.ac.in/" class="text-white">NCC</a></li>
+                              <li><a href="https://gndec.ac.in/?q=node/338" class="text-white">NSS</a></li>
+                              <li><a href="https://sports.gndec.ac.in/" class="text-white">Sports</a></li>
+                              <li><a href="https://gndec.ac.in/cultural/" class="text-white">Culture Committee</a></li>
+                          </ul>
+                   
+                    </div>
+                    
+                      <div class="col-sm-4 mb-3">
+                          <h5>Other Links</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="https://stepgndec.com/" class="text-white">STEP</a></li>
+                              <li><a href="https://teqip.gndec.ac.in/" class="text-white"> TEQIP-III</a></li>
+                              <li><a href="https://gndec.ac.in/sites/default/files/Mandatory%20Disclosure_0.pdf" class="text-white">Mandatory Disclosure</a></li>
+                              <li><a href="https://alumni.gndec.ac.in/" class="text-white">ALUMNI</a></li>
+                              <li><a href="https://fmcrs.gndec.ac.in/" class="text-white">FM 90.8</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <div class="footer-bottom  text-center text-white py-2">
+      © Copyright 2025, All Rights Reserved GNDEC | 
+  </div>
+
+  </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+  </script>
+  <script>  
+
+  
+document.addEventListener("DOMContentLoaded", function () {
+    const video = document.querySelector("video");
+    video.oncanplaythrough = function () {
+        document.body.style.visibility = "visible";
+    };
+    document.body.style.visibility = "hidden";
+});
+
+// navbar scroll
+
+  window.addEventListener("scroll", function () {
+      let navbar = document.getElementById("navbar");
+      if (window.scrollY > 60) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+    let dropdownItems = document.querySelectorAll(".dropdown-menu .dropdown-item");
+    let navbarToggler = document.querySelector(".navbar-toggler");
+
+    // Close dropdown when an item is clicked
+    dropdownItems.forEach(function (item) {
+        item.addEventListener("click", function () {
+            let dropdownMenu = this.closest(".dropdown-menu");
+            let dropdownToggle = dropdownMenu.closest(".dropdown").querySelector(".dropdown-toggle");
+
+            if (dropdownToggle) {
+                dropdownToggle.click(); // Close the dropdown
+            }
+
+            // If in mobile view and the navbar is open, close it
+            if (window.innerWidth < 992 && navbarToggler && navbarToggler.classList.contains("collapsed") === false) {
+                navbarToggler.click(); // Simulates a click to close the mobile menu
+            }
+        });
+    });
+
+    // Close navbar on mobile when clicking the toggler button
+    if (navbarToggler) {
+        navbarToggler.addEventListener("click", function () {
+            let navbarCollapse = document.querySelector(".navbar-collapse");
+
+            if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+                navbarToggler.click(); // Closes the navbar if open
+            }
+        });
+    }
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let navbarToggler = document.querySelector(".navbar-toggler");
+    let navbarCollapse = document.querySelector(".navbar-collapse");
+
+    // Function to close the navbar
+    function closeNavbar() {
+        if (navbarCollapse.classList.contains("show")) {
+            navbarToggler.click(); // Simulates a click to close the menu
+        }
+    }
+
+    // Close navbar when clicking any menu item (small screens)
+    document.querySelectorAll(".navbar-nav .nav-link").forEach(function (item) {
+        item.addEventListener("click", function () {
+            closeNavbar();
+        });
+    });
+
+    // Close navbar when clicking outside of it
+    document.addEventListener("click", function (event) {
+        let isClickInsideNavbar = navbarCollapse.contains(event.target) || navbarToggler.contains(event.target);
+
+        if (!isClickInsideNavbar) {
+            closeNavbar();
+        }
+    });
+});
+
+
+// open the gallery image when clicking on the image thumbnail
+
+document.querySelectorAll('.gallery-img').forEach(img => {
+    img.addEventListener('click', function () {
+      document.getElementById('modalImage').src = this.dataset.img;
+    });
+  });
+
+
+// videoo will load first
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+            const savedFileName = localStorage.getItem("videoFileName");
+    
+            if (savedFileName) {
+                const video = document.getElementById("bg-video");
+                const source = document.getElementById("video-source");
+    
+                source.src = "assests/" + savedFileName;
+                video.load();  
+            }
+        });
+
+
+
+    //read more of about 
+  function toggleReadMore() {
+    const text = document.getElementById("aboutText");
+    const button = document.querySelector(".read-more-btn");
+
+    if (text.classList.contains("expanded")) {
+      text.classList.remove("expanded");
+      button.textContent = "Read More";
+    } else {
+      text.classList.add("expanded");
+      button.textContent = "Read Less";
+    }
+  }
+
+// read more of principal
+  function togglePrincipalText() {
+    const text = document.getElementById("principalText");
+    const btn = document.getElementById("toggleBtn");
+    text.classList.toggle("expanded");
+    btn.innerText = text.classList.contains("expanded") ? "Read Less" : "Read More";
+  }
+
+
+  // Disable click-toggle dropdown behavior for hover
+  document.querySelectorAll('.nav-item.dropdown > .dropdown-toggle').forEach(function (dropdown) {
+    dropdown.setAttribute('data-bs-toggle', '');
+  });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

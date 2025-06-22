@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Hurricane&family=Kings&family=Lakki+Reddy&family=Luckiest+Guy&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Niconne&family=Poppins&family=Rubik+Spray+Paint&family=Shojumaru&family=Tangerine:wght@400;700&family=Tiro+Gurmukhi:ital@0;1&family=ZCOOL+XiaoWei&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class="position-absolute top-0 w-100">
+        <nav class="  d-flex flex-wrap  " style="background: linear-gradient(10deg ,rgb(158, 158, 183), #021032); ">
+          <div class="container-fluid d-flex   px-3 ">
+            <img src="assests/logo-removebg-preview.png " alt="GNDEC Logo" class="logo">
+  
+            <div class="d-flex  justify-content-between w-100 py-3 pb-0">
+  
+              <div class="d-flex  flex-column gap-1 ">
+                <span class="upper-heading  fw-bold text-white   header-text
+                          " style="font-family: 'Cinzel', serif;  ">GURU NANAK DEV ENGINEERING COLLEGE</span>
+                <span class="upper-heading fw-bold text-white  header-text" style="font-family: 'Cinzel', serif; ">ਗੁਰੂ
+                  ਨਾਨਕ ਦੇਵ ਇੰਜੀਨੀਅਰਿੰਗ ਕਾਲਜ</span>
+                  
+                
+  
+              </div>
+  
+             
+            </div>
+        </div>
+    </nav>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark w-100 bg-transparent ">
+        <div class=" container-fluid justify-content-end px-0">
+          
+
+          <div class="d-flex  align-items-center d-lg-none mx-3">
+            <a href="index.html"><i class="fa-solid fa-house text-white fs-4"></i></a>
+          </div>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+
+
+
+          <img src="assests/logo-removebg-preview.png" alt="Logo" class="nav-logo">
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav d-flex justify-content-between gap-3 ">
+
+              <li class="d-none d-md-flex  align-items-center">
+                <a href="index.html"><i class="fa-solid fa-house text-white fs-4"></i></a>
+              </li>
+              <li>
+                <a href="#principal"
+                  class="btn btn-transparent " style="color: white; border: none;" >
+                 PRINCIPAL DESK
+                </a>
+
+              </li>
+              <li>
+                <a href="#vision"
+                  class="btn btn-transparent " style="color: white; border: none;" >
+                 VISION
+                </a>
+
+              </li>
+              <li>
+                <a href="#mission"
+                  class="btn btn-transparent " style="color: white; border: none;" >
+                 MISSION
+                </a>
+
+              </li>
+              <li>
+                <a href="#history"
+                  class="btn btn-transparent " style="color: white; border: none;" >
+                 HISTORY
+                </a>
+
+              </li>
+              <li>
+                <a href="#goals"
+                  class="btn btn-transparent " style="color: white; border: none;" >
+                 GOALS
+                </a>
+
+              </li>
+
+
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div class="slider-container">
+        <div id="background" class="background"></div>
+        <img src="./assests/slider1.jpeg" class="slide slide1">
+        <img src="./assests/slider2.jpeg" class="slide slide2">
+        <img src="./assests/slider3.jpeg" class="slide slide3">
+        <img src="./assests/slider4.jpeg" class="slide slide3">
+        <img src="./assests/slider5.jpeg" class="slide slide3">
+        <button id="arrow-left" class="arrow">&#10094;</button>
+        <button id="arrow-right" class="arrow">&#10095;</button>
+    </div>
+
+<section id="principal">
+    <div class="principal-about-box" >
+      <div class="principal-about-content">
+        <h2><i class="fas fa-edit"></i> Principal- Dr. Sehijpal Singh</h2>
+        <div class="underline"></div>
+          <p>
+            Guru Nanak Dev Engineering College, Ludhiana (an autonomous college under UGC Act), established in 1956, was set up under the aegis of Nankana Sahib Education Trust, devoted to the cause of rural education to meet the growing demand for technical and professional manpower and industries. We are proud that this institution has consistently maintained its tradition of excellence in the field of technical education till date. The college has been declared an Autonomous College by UGC, New Delhi on 17.8.2012. The college has privilege of starting Ph.D degree under Quality Improvement Programme (QIP) by AICTE, New Delhi. The college has been accredited with ‘A’ Grade by NAAC. The college has attained ISO 9001:2015 Certification and the UG programmes are accredited by IEI.
+          </p>
+      </div>
+      <div class="principal-image" >
+          <img src="./assests/principal2.jpg" alt="Sample Image">
+      </div>
+  </div>
+</section>
+
+
+<section id="vision">
+    <div class="vision-box" >
+      <div class="vision-image">
+        <img src="./assests/vision.jpg" alt="Sample Image">
+    </div>
+      <div class="vision-content">
+        <h2><i class="fas fa-edit"></i> Vision</h2>
+        <div class="underline"></div>
+          <p>
+            Realization of Glimpses of a Golden India in the real(rural) India which lives and abounds in its villages. GNDEC will excel nationally and distinguish itself as a recognized pre-eminent leader to serve this 70% Brotherhood through its socioeconomic upliftment by exposure of the havenots to Engg. & Technology thereby grooming them as technically competent and intellectually-vital Graduates through practically focused quality learning experiences, and thus assuring productive Careers for them.
+          </p>
+      </div>
+     
+  </div>
+</section>
+
+<section id="history">
+  <div class="history-container" >
+  <div class="history-box">
+    <div class="history-content">
+      <h2><i class="fas fa-edit"></i> History</h2>
+      <div class="underline"></div>
+        <p class="history-text" id="history-text">
+          Guru Nanak Dev Engineering College, one of the prestigious, oldest and minority institution of Northern India, was established under the aegis of Nankana Sahib Education Trust (NSET) in 1956. NSET was founded in memory of the most sacred temple of Nankana Sahib, birth place of Guru Nanak Dev Ji. Shiromani Gurudwara Prabandhak Committee, Amritsar, a premier organization of universal brotherhood, which is the main force behind the mission of "Removal of Economic Backwardness through Technology" and NSET with the same mission, established a Polytechnic in 1953 and Guru Nanak Dev Engineering College (GNDEC) in 1956. The Trust deed was registered on 24th February 1953 with a commitment by Nankana Sahib Education Trust to uplift the vast weaker section of Indian polity comprising Rural India by admitting 70% students every year from Rural Areas. This commitment was made to the nation on 8th April, 1956. The day when foundation stone of the College was laid by Late Dr. Rajendra Prasad Ji, the First President of India.
+
+          The College was affiliated with Punjab University, Chandigarh since its inception. On establishment of Punjab Technical University, Jalandhar, since 1997 the college is affiliated with it, which is now known as I.K.Gujral Punjab Technical University (IKGPTU). The College courses are approved by All India Council for Technical Education, New Delhi. This is the first Engineering College of Punjab, which was conferred Autonomous Status by University Grants Commission(UGC), New Delhi in 2012 under UGC Act 1956. The College undergraduate courses are accredited with National Board of Accreditation, New Delhi since 2004, now the same are accredited under Tier-I (Washington Accord). The college is accredited with ‘A” Grade by NAAC, UGC. Tata Consultancy Services (TCS) has accredited this college twice for placement purpose. The college is also ISO 9001-2015 certified.
+          
+          MHRD, Govt. of India has sanctioned Rs. 10 Crores for Technical Education Quality Improvement Programme-II (TEQIP-II) and Rs. 5 Crores for Technical Education Quality Improvement Programme-III (TEQIP-III) to this College. The Department of Science and Technology (DST) also sanctioned Rs. 1 Crores under FIST Programme for carrying out the research activities. The College has received grant to the tune of Rs. 5 Crores for research & other activities by different agencies like AICTE, UGC and DST etc.
+          
+          FM Radio Station has been established after sanction by Govt. of India for educating the general public.
+          
+          GNDEC is overall sports champion of Punjab Technical University (Now, IKGPTU) & also in its survey declared GNDEC Best Engineering college in year 2011 and 2012 & 2014 for excellent placements amongst all its affiliated colleges. There is one N.C.C. Company in the institution attached with 3 Pb., Bn N.C.C. (Boy Cadets = 79, Girl Cadet = 27, total of 106 Cadets. Three and a half units of N.S.S. having a total of 350 volunteers have been allotted by IKGPTU to provide opportunities to the students for Social Services in various fields like blood donation, plantation, cleanliness etc. However a total of more than 1000 volunteers are enrolled in NSS in the College each academic year.
+          
+          The College has been ranked consistently within first 50 engineering colleges of the country which includes IITs and NITs by different independent national agencies like India Today, Outlook, CSR, Star TV etc. since 2006.
+          
+          GNDEC has signed various MoUs for exchange of students and faculty with International Universities.
+          
+          GNDEC runs six Engineering Branches (Civil Engg., Mech. Engg, Elect.Engg., Electronics & Comm. Engg. Computer Sc. & Engg, Information Technology) alongwith BBA, BCA, B.Voc. (Interior Design),B.Com(Entrepreneurship) at UG level and 11 PG level courses including MBA and MCA. The college has Ph.D in all Engineering Branches under autonomous status. Bachelor of Architecture (B.Arch.) is also run under GNDEC School of Architecture.
+          
+          Nearly 40,000 Graduates and 10,000 Post Graduates have passed out from this college and are at present successfully employed on high profile jobs in India & abroad making their alma mater proud of them.
+        </p>
+        <button class="read-more" id="readMoreBtn" onclick="toggleReadMore()">Read More</button>
+    </div>
+   
+</div>
+</div>
+</section>
+
+
+<section id="mission">
+<div class="vision-box" >
+  <div class="vision-image">
+    <img src="./assests/vision.jpg" alt="Sample Image">
+</div>
+  <div class="vision-content">
+    <h2><i class="fas fa-edit"></i> Mission</h2>
+    <div class="underline"></div>
+      <p>
+        <ul>
+       <li>Upliftment of Rural Students through technical education.</li> 
+       <li>Respond to local societal needs by developing selected 'targeted research projects'.</li> 
+       <li>Quality training programs in need based modern technology.</li> 
+       <li>To maintain state-of-the-art infrastructure in laboratories.</li> 
+       <li>To promote culture of self-employment.</li> 
+       <li>To impart non-formal education to unemployed youth.</li> 
+       <li>To inculcate moral, ethical, spiritual values in education at all levels.</li> 
+</ul>
+      </p>
+  </div>
+ 
+</div>
+</section>
+
+<section id="goals">
+<div class="goal-container" >
+<div class="goal-box">
+  <h2><i class="fas fa-edit"></i>Goal</h2>
+    <div class="underline"></div>
+  <div class="goal-content">
+    
+      <p>
+        <ul>
+          <h3>Long Term Goals</h3>
+       <li>Upliftment of Rural Students through technical education.</li> 
+       <li>Respond to local societal needs by developing selected 'targeted research projects'.</li> 
+       <li>Quality training programs in need based modern technology.</li> 
+       <li>To maintain state-of-the-art infrastructure in laboratories.</li> 
+       <li>To promote culture of self-employment.</li> 
+       <li>To impart non-formal education to unemployed youth.</li> 
+       <li>To inculcate moral, ethical, spiritual values in education at all levels.</li> 
+</ul>
+      </p>
+      <p>
+        <ul>
+          <h3>Short Term Goals</h3>
+       <li>Upliftment of Rural Students through technical education.</li> 
+       <li>Respond to local societal needs by developing selected 'targeted research projects'.</li> 
+       <li>Quality training programs in need based modern technology.</li> 
+       <li>To maintain state-of-the-art infrastructure in laboratories.</li> 
+       <li>To promote culture of self-employment.</li> 
+       <li>To impart non-formal education to unemployed youth.</li> 
+       <li>To inculcate moral, ethical, spiritual values in education at all levels.</li> 
+</ul>
+      </p>
+  </div>
+</div>
+</div>
+</section>
+
+
+<footer class="footer  text-white py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 text-center text-md-start mb-3">
+              <img src="assests/logo-removebg-preview.png" alt=" Logo" width="80">
+              <h2 class="mt-2">Guru Nanak Dev Engineering College</h2>
+              <p>
+                  📍 Gill Rd, Gill Park, Ludhiana, Punjab 141006
+              </p>
+              <p>
+                  📞 +91-0181-5037855, 2690301, 2690453, 3082000
+              </p>
+          </div>
+          <div class="col-md-8">
+              <div class="col-12 d-flex justify-content-center footer-container">
+                  <div class="col-sm-4 mb-3">
+                      <h5>Quick Links</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="./academic-calender.html" class="text-white">Academic Calendar</a></li>
+                          <li><a href="#" class="text-white">Admission</a></li>
+                          <li><a href="https://gndec.ac.in/sites/default/files/ar2122_0.pdf" class="text-white">Annual Reports</a></li>
+                          <li><a href="https://gndec.ac.in/sites/default/files/List%20of%20Holidays-1.pdf" class="text-white">List of Holidays</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 mb-3">
+                      <h5>Facilities</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="https://gndec.ac.in/sites/default/files/Hostel%20Rules_24.pdf" class="text-white">Hostels</a></li>
+                          <li><a href="https://ncc.gndec.ac.in/" class="text-white">NCC</a></li>
+                          <li><a href="https://gndec.ac.in/?q=node/338" class="text-white">NSS</a></li>
+                          <li><a href="https://sports.gndec.ac.in/" class="text-white">Sports</a></li>
+                          <li><a href="https://gndec.ac.in/cultural/" class="text-white">Culture Committee</a></li>
+                      </ul>
+               
+                </div>
+                
+                  <div class="col-sm-4 mb-3">
+                      <h5>Other Links</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="https://stepgndec.com/" class="text-white">STEP</a></li>
+                          <li><a href="https://teqip.gndec.ac.in/" class="text-white"> TEQIP-III</a></li>
+                          <li><a href="https://gndec.ac.in/sites/default/files/Mandatory%20Disclosure_0.pdf" class="text-white">Mandatory Disclosure</a></li>
+                          <li><a href="https://alumni.gndec.ac.in/" class="text-white">ALUMNI</a></li>
+                          <li><a href="https://fmcrs.gndec.ac.in/" class="text-white">FM 90.8</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<div class="footer-bottom  text-center text-white py-2">
+    © Copyright 2025, All Rights Reserved GNDEC | 
+</div>
+ 
+
+
+
+
+</div>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+</script>
+    <script>
+
+window.addEventListener("scroll", function () {
+      let navbar = document.getElementById("navbar");
+      if (window.scrollY > 60) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+        let sliderImages = document.querySelectorAll(".slide"),
+            background = document.getElementById("background"),
+            arrowLeft = document.getElementById("arrow-left"),
+            arrowRight = document.getElementById("arrow-right"),
+            current = 0;
+
+        function reset() {
+            sliderImages.forEach(img => img.style.display = "none");
+        }
+
+        function updateBackground() {
+            console.log(sliderImages[current].src);
+            background.style.backgroundImage = `url(${sliderImages[current].src})`;
+        }
+
+        function startSlide() {
+            reset();
+            sliderImages[0].style.display = "block";
+            updateBackground();
+        }
+
+        function slideLeft() {
+            reset();
+            current = (current - 1 + sliderImages.length) % sliderImages.length;
+            sliderImages[current].style.display = "block";
+            updateBackground();
+        }
+
+        function slideRight() {
+            reset();
+            current = (current + 1) % sliderImages.length;
+            sliderImages[current].style.display = "block";
+            updateBackground();
+        }
+
+        arrowLeft.addEventListener("click", slideLeft);
+        arrowRight.addEventListener("click", slideRight);
+
+        function autoSlide() {
+            slideRight();
+        }
+
+        setInterval(autoSlide, 5000);
+        startSlide();
+       
+
+        function toggleReadMore() {
+            var text = document.getElementById("history-text");
+            var button = document.getElementById("readMoreBtn");
+            
+            if (text.classList.contains("expanded")) {
+                text.classList.remove("expanded");
+                button.innerText = "Read More";
+            } else {
+                text.classList.add("expanded");
+                button.innerText = "Read Less";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+    
+    let navbarToggler = document.querySelector(".navbar-toggler");
+
+
+    // Close navbar on mobile when clicking the toggler button
+    if (navbarToggler) {
+        navbarToggler.addEventListener("click", function () {
+            let navbarCollapse = document.querySelector(".navbar-collapse");
+
+            if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+                navbarToggler.click(); // Closes the navbar if open
+            }
+        });
+    }
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let navbarToggler = document.querySelector(".navbar-toggler");
+    let navbarCollapse = document.querySelector(".navbar-collapse");
+
+    // Function to close the navbar
+    function closeNavbar() {
+        if (navbarCollapse.classList.contains("show")) {
+            navbarToggler.click(); // Simulates a click to close the menu
+        }
+    }
+
+    // Close navbar when clicking any menu item (small screens)
+    document.querySelectorAll(".navbar-nav .nav-link").forEach(function (item) {
+        item.addEventListener("click", function () {
+            closeNavbar();
+        });
+    });
+
+    // Close navbar when clicking outside of it
+    document.addEventListener("click", function (event) {
+        let isClickInsideNavbar = navbarCollapse.contains(event.target) || navbarToggler.contains(event.target);
+
+        if (!isClickInsideNavbar) {
+            closeNavbar();
+        }
+    });
+});
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+            const savedFileName = localStorage.getItem("videoFileName");
+    
+            if (savedFileName) {
+                const video = document.getElementById("bg-video");
+                const source = document.getElementById("video-source");
+    
+                source.src = "assests/" + savedFileName;
+                video.load();  // Reload video
+            }
+        });
+        
+    </script>
+</body>
+</html>
